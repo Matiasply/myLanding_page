@@ -1,5 +1,6 @@
 import Image from "next/image"
 import provImage from "../../public/prov.jpeg"
+import { PuzzlePieceIcon } from "@heroicons/react/24/outline"
 
 export function About() {
     return (
@@ -23,6 +24,16 @@ export function About() {
                     práticas e desafios, afim de crescer perante os obstáculos. 
                 </p>
 
+            </div>
+
+           </div>
+
+           <div className="py-16 px-12 container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+
+            <div className="bg-gray-300 w-90 flex flex-col items-center gap-2 rounded-3xl relative">
+                <PuzzlePieceIcon className="w-20 h-20"/>
+                <h3 className="text-2xl">Capacidade de aprendizagem</h3>
+                <p className="px-3 py-2">Sou capaz de aprender rápido e pôr em prática qualquer tecnologia em curtos períodos.</p>
             </div>
 
            </div>
