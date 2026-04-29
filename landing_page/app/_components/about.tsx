@@ -1,6 +1,8 @@
 import Image from "next/image"
 import provImage from "../../public/prov.jpeg"
 import { PuzzlePieceIcon } from "@heroicons/react/24/outline"
+import { ArrowPathIcon } from "@heroicons/react/24/outline"
+import { UserGroupIcon } from "@heroicons/react/24/outline"
 
 export function About() {
     return (
@@ -21,7 +23,7 @@ export function About() {
                     Ciência de Dados & Inteligência Artificial na Universidade Federal da Paraíba.
                     Ainda não encontrei uma área de interesse nesse vasto mundo da tecnologia, mas
                     tenho me aventurado bastante em desenvolvimento web fullstack. Busco experiências
-                    práticas e desafios, afim de crescer perante os obstáculos. 
+                    práticas e desafios, a fim de crescer perante os obstáculos. 
                 </p>
 
             </div>
@@ -34,6 +36,18 @@ export function About() {
                 <PuzzlePieceIcon className="w-20 h-20"/>
                 <h3 className="text-2xl">Capacidade de aprendizagem</h3>
                 <p className="px-3 py-2">Sou capaz de aprender rápido e pôr em prática qualquer tecnologia em curtos períodos.</p>
+            </div>
+
+            <div className="bg-gray-300 w-90 flex flex-col items-center gap-2 rounded-3xl relative">
+                <ArrowPathIcon className="w-20 h-20"/>
+                <h3 className="text-2xl">Adaptabilidade e resiliência.</h3>
+                <p className="px-3 py-2">Tenho facilidade em lidar com mudanças e determinação para vencer os desafios.</p>
+            </div>
+
+            <div className="bg-gray-300 w-90 flex flex-col items-center gap-2 rounded-3xl relative">
+                <UserGroupIcon className="w-20 h-20"/>
+                <h3 className="text-2xl">Trabalho em equipe.</h3>
+                <p className="px-3 py-2">Boa comunicação e capacidade de trabalhar em equipe com perfis variados.</p>
             </div>
 
            </div>
