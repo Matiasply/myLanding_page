@@ -61,13 +61,13 @@ export function About() {
 
             <h3 className="text-4xl font-semibold text-center">Tecnologias conhecidas.</h3>
            <div className="container mx-auto py-16 px-12 bg-gray-300 shadow-2xl rounded-3xl grid grid-cols-2 lg:grid-cols-4 gap-12 items-center">
-                <Image src={HtmlIcon} alt="Ícone do html"/>
-                <Image src={CssIcon} alt="Ícone do css"/>
-                <Image src={JsIcon} alt="Ícone do javascript"/>
-                <Image src={NodeJsIcon} alt="Ícone do nodejs"/>
-                <Image src={PythonIcon} alt="Ícone do python"/>
-                <Image src={PostgreIcon} alt="Ícone do postgresql"/>
-                <Image src={GitIcon} alt="Ícone do github"/>
+                <Image src={HtmlIcon} alt="Ícone do html" className="hover:scale-110 duration-300"/>
+                <Image src={CssIcon} alt="Ícone do css" className="hover:scale-110 duration-300"/>
+                <Image src={JsIcon} alt="Ícone do javascript" className="hover:scale-110 duration-300"/>
+                <Image src={NodeJsIcon} alt="Ícone do nodejs" className="hover:scale-110 duration-300"/>
+                <Image src={PythonIcon} alt="Ícone do python" className="hover:scale-110 duration-300"/>
+                <Image src={PostgreIcon} alt="Ícone do postgresql" className="hover:scale-110 duration-300"/>
+                <Image src={GitIcon} alt="Ícone do github" className="hover:scale-110 duration-300"/>
            </div>
 
         </section>
