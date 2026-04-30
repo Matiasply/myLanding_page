@@ -2,6 +2,7 @@ import Image from "next/image"
 import GenericPhoto from "../../public/loading.jpeg"
 import GitIcon from "../../public/githubII.png"
 import BossPicture from "../../public/boss_final.png"
+import DataPicture from "../../public/data.jpeg"
 
 export function Projects () {
     return (
@@ -69,6 +70,38 @@ export function Projects () {
                         </a>
 
                     </div>
+
+                </div>
+
+                <div className="flex flex-row-reverse justify-between gap-12 px-16 py-12">
+
+                    <div className="rounded-3xl shadow-2xl">
+
+                        <Image src={ DataPicture } alt="Site boss final store" className="w-200 h-100 hover:scale-110 duration-300"/>
+                    
+                    </div>
+
+                    <div className="flex flex-col gap-10 w-200">
+
+                        <h3 className="text-2xl lg:text-4xl font-bold">
+                            ProfessorOakWouldBeProud
+                        </h3>
+
+                        <p>
+                            Análise de dados da pokédex regional de Kanto. Insights e descobertas interessantes
+                            a partir dos dados dos 151 primeiros pokémons. O projeto foi todo feito em python
+                            utilizando ferramentas de análise de dados como o Jupyter Notebook, Pandas, NumPy,
+                            Seaborn dentre outras ferramentas. Visite o repositório clicando no ícone a baixo:
+                        </p>
+
+                        <a href="https://github.com/Matiasply/ProfessorOakWouldBeProud" className="mx-auto hover:scale-110 duration-300">
+                        
+                        <Image src={GitIcon} alt="Link para repositório"/>
+
+                        </a>
+
+                    </div>
+
 
                 </div>
 
