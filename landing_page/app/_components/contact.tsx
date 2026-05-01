@@ -13,20 +13,20 @@ export function Contacts () {
 
             <div className="grid grid-cols-3 gap-5">
 
-                <a href="https://github.com/Matiasply" className="mx-auto hover:scale-105 duration-300">
+                <a href="https://github.com/Matiasply" className="mx-auto hover:scale-105 duration-300" target="_blank">
 
                     <Image src={GitIcon} alt="Logo do github" className="w-40 h-40"/>
 
                 </a>
 
-                <a href="https://www.instagram.com/matiasmonteirodale/" className="mx-auto hover:scale-105 duration-300">
+                <a href="https://www.instagram.com/matiasmonteirodale/" className="mx-auto hover:scale-105 duration-300" target="_blank">
 
                     <Image src={InstaIcon} alt="Logo do instagram" className="w-70 h-50"/>
 
                 </a>
 
                 <a href="https://www.linkedin.com/in/matias-monteiro-de-ara%C3%BAjo-bbb4271bb/" 
-                className="mx-auto hover:scale-105 duration-300">
+                className="mx-auto hover:scale-105 duration-300" target="_blank">
 
                     <Image src={LinkeIcon} alt="Logo do linkedin" className="w-70 h-50"/>
 

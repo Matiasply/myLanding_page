@@ -32,7 +32,7 @@ export function Projects () {
                             Visite o repositório clicando no ícone a baixo:
                         </p>
 
-                        <a href="https://github.com/Matiasply/Catequisando" className="mx-auto hover:scale-110 duration-300">
+                        <a href="https://github.com/Matiasply/Catequisando" className="mx-auto hover:scale-110 duration-300" target="_blank">
                         
                         <Image src={GitIcon} alt="Link para repositório"/>
 
@@ -63,7 +63,7 @@ export function Projects () {
                             Visite o repositório clicando no ícone a baixo:
                         </p>
 
-                        <a href="https://github.com/Matiasply/Boss-Final-Store" className="mx-auto hover:scale-110 duration-300">
+                        <a href="https://github.com/Matiasply/Boss-Final-Store" className="mx-auto hover:scale-110 duration-300" target="_blank">
                         
                         <Image src={GitIcon} alt="Link para repositório"/>
 
@@ -94,7 +94,7 @@ export function Projects () {
                             Seaborn dentre outras ferramentas. Visite o repositório clicando no ícone a baixo:
                         </p>
 
-                        <a href="https://github.com/Matiasply/ProfessorOakWouldBeProud" className="mx-auto hover:scale-110 duration-300">
+                        <a href="https://github.com/Matiasply/ProfessorOakWouldBeProud" className="mx-auto hover:scale-110 duration-300" target="_blank">
                         
                         <Image src={GitIcon} alt="Link para repositório"/>
 
