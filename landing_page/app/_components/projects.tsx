@@ -8,23 +8,23 @@ export function Projects () {
     return (
         <section id="projetos" className="py-16 px-12">
 
-            <h2 className="text-3xl lg:text-5xl text-black text-center">Meus projetos</h2>
+            <h2 className="text-3xl lg:text-5xl text-black text-center" data-aos="flip-down">Meus projetos</h2>
 
             <div className="flex flex-col justify-center gap-12">
 
                 <div className="flex flex-row-reverse justify-between gap-12 py-16 px-12">
 
-                    <div className="rounded-3xl shadow-2xl">
+                    <div className="rounded-3xl shadow-2xl" data-aos="flip-right">
 
                         <Image src={ GenericPhoto } alt="Imagem genérica" className="w-100 h-100 hover:scale-110 duration-300"/>
                     
                     </div>
 
-                    <div className="flex flex-col gap-10 w-200">
+                    <div className="flex flex-col gap-10 w-200" >
 
-                        <h3 className="text-2xl lg:text-4xl font-bold">Catequisando</h3>
+                        <h3 className="text-2xl lg:text-4xl font-bold" data-aos="flip-up">Catequisando</h3>
 
-                        <p>
+                        <p data-aos="flip-up">
                             Aplicação web pensada para tornar a catequese católica mais dinâmica e fácil.
                             Uma forma de integrar fé e tecnologia e evangelizar atráves da internet. O 
                             projeto também visa mostrar, com clareza, a doutrina católica àqueles que a 
@@ -45,7 +45,7 @@ export function Projects () {
 
                 <div className="flex flex-row justify-between gap-12 px-16 py-12">
 
-                    <div className="rounded-3xl shadow-2xl">
+                    <div className="rounded-3xl shadow-2xl" data-aos="flip-left">
 
                         <Image src={ BossPicture } alt="Site boss final store" className="w-200 h-100 hover:scale-110 duration-300"/>
                     
@@ -53,9 +53,9 @@ export function Projects () {
 
                     <div className="flex flex-col gap-10 w-200">
 
-                        <h3 className="text-2xl lg:text-4xl font-bold">Boss Final Store</h3>
+                        <h3 className="text-2xl lg:text-4xl font-bold" data-aos="flip-up">Boss Final Store</h3>
 
-                        <p>
+                        <p data-aos="flip-up">
                             E-commerce desenvolvido como projeto final da disciplina de Banco de Dados.
                             Design neutro, podendo ser utilizado para a venda de produtos variados.
                             Aplicação web completa com front e back-end, além de integração com Banco de Dados 
@@ -75,7 +75,7 @@ export function Projects () {
 
                 <div className="flex flex-row-reverse justify-between gap-12 px-16 py-12">
 
-                    <div className="rounded-3xl shadow-2xl">
+                    <div className="rounded-3xl shadow-2xl" data-aos="flip-right">
 
                         <Image src={ DataPicture } alt="Site boss final store" className="w-200 h-100 hover:scale-110 duration-300"/>
                     
@@ -83,11 +83,11 @@ export function Projects () {
 
                     <div className="flex flex-col gap-10 w-200">
 
-                        <h3 className="text-2xl lg:text-4xl font-bold">
+                        <h3 className="text-2xl lg:text-4xl font-bold" data-aos="flip-up">
                             ProfessorOakWouldBeProud
                         </h3>
 
-                        <p>
+                        <p data-aos="flip-up">
                             Análise de dados da pokédex regional de Kanto. Insights e descobertas interessantes
                             a partir dos dados dos 151 primeiros pokémons. O projeto foi todo feito em python
                             utilizando ferramentas de análise de dados como o Jupyter Notebook, Pandas, NumPy,
