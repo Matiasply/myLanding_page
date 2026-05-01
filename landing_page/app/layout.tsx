@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Open_Sans } from "next/font/google"
+import { Contacts } from "./_components/contact";
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -33,7 +34,12 @@ export default function RootLayout({
       lang="pt-br"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className={`min-h-full flex flex-col ${openSans.className}`}>{children}</body>
+      <body className={`min-h-full flex flex-col ${openSans.className}`}>
+        {children}
+        <footer>
+          <Contacts/>
+        </footer>
+        </body>
     </html>
   );
 }
