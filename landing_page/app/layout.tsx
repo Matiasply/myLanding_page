@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Open_Sans } from "next/font/google"
 import { Contacts } from "./_components/contact";
+import { AosInit } from "./_components/aos-init";
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -39,6 +40,7 @@ export default function RootLayout({
         <footer>
           <Contacts/>
         </footer>
+        <AosInit/>
         </body>
     </html>
   );
