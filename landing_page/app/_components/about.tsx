@@ -10,6 +10,7 @@ import NodeJsIcon from "../../public/icons8-nodejs-96.png"
 import PythonIcon from "../../public/icons8-python-100.png"
 import PostgreIcon from "../../public/icons8-postgreesql-100.png"
 import GitIcon from "../../public/giticon.png"
+import NextIcon from "../../public/icons8-nextjs-100.png"
 
 export function About() {
     return (
@@ -61,13 +62,14 @@ export function About() {
 
             <h3 className="text-4xl font-semibold text-center">Tecnologias conhecidas.</h3>
            <div className="container mx-auto py-16 px-12 bg-gray-300 shadow-2xl rounded-3xl grid grid-cols-2 lg:grid-cols-4 gap-12 items-center">
-                <Image src={HtmlIcon} alt="Ícone do html" className="hover:scale-110 duration-300"/>
-                <Image src={CssIcon} alt="Ícone do css" className="hover:scale-110 duration-300"/>
-                <Image src={JsIcon} alt="Ícone do javascript" className="hover:scale-110 duration-300"/>
-                <Image src={NodeJsIcon} alt="Ícone do nodejs" className="hover:scale-110 duration-300"/>
-                <Image src={PythonIcon} alt="Ícone do python" className="hover:scale-110 duration-300"/>
-                <Image src={PostgreIcon} alt="Ícone do postgresql" className="hover:scale-110 duration-300"/>
-                <Image src={GitIcon} alt="Ícone do github" className="hover:scale-110 duration-300"/>
+                <Image src={HtmlIcon} alt="Ícone do html" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={CssIcon} alt="Ícone do css" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={JsIcon} alt="Ícone do javascript" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={NodeJsIcon} alt="Ícone do nodejs" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={PythonIcon} alt="Ícone do python" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={PostgreIcon} alt="Ícone do postgresql" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={GitIcon} alt="Ícone do github" className="hover:scale-110 duration-300 mx-auto"/>
+                <Image src={NextIcon} alt="Ícone do github" className="hover:scale-110 duration-300 mx-auto"/>
            </div>
 
         </section>
