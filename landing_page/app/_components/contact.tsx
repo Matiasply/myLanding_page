@@ -9,9 +9,9 @@ export function Contacts () {
     return (
         <section id="contato" className="bg-black">
 
-            <h4 className="text-2xl text-white text-center">Minhas redes sociais</h4>
+            <h4 className="text-3xl text-white text-center" data-aos="zoom-in-up">Minhas redes sociais</h4>
 
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid grid-cols-3 gap-5" data-aos="zoom-in-up">
 
                 <a href="https://github.com/Matiasply" className="mx-auto hover:scale-105 duration-300" target="_blank">
 
@@ -34,11 +34,15 @@ export function Contacts () {
 
             </div>
 
-            <h4 className="text-2xl text-center text-white">Me mande um email.</h4>
+            <h4 className="text-2xl text-center text-white" data-aos="zoom-in-up">Me mande um email.</h4>
 
             <a href="mailto:matiasmonteiroaraujo@gmail.com">
 
-                <Image src={EmailIcon} alt="Símbolo de email" className="mx-auto h-50 w-70 hover:scale-105 duration-300"/>
+                <div data-aos="zoom-in-up">
+
+                    <Image src={EmailIcon} alt="Símbolo de email" className="mx-auto h-50 w-70 hover:scale-105 duration-300"/>
+                
+                </div>
 
             </a>
 
