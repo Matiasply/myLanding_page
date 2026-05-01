@@ -27,7 +27,8 @@ export function Hero () {
 
                                 <div className="mt-3" data-aos="fade-right">
                                     <a href="#sobre_mim"
-                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2">
+                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2
+                                    hover:bg-black hover:text-white">
                                         <Usericon className="size-6 w-5 h-5"/>
                                     Mais sobre mim.
                                     </a>
@@ -35,7 +36,8 @@ export function Hero () {
 
                                 <div className="mt-3" data-aos="fade-up">
                                     <a href="#projetos" 
-                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2 ">
+                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2 
+                                    hover:bg-black hover:text-white">
                                     <Devicon className="size-6 w-5 h-5"/>
                                         Meus projetos.
                                     </a>
@@ -43,7 +45,8 @@ export function Hero () {
 
                                 <div className="mt-3" data-aos="fade-left">
                                     <a href="#contato"
-                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2">
+                                    className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2
+                                    hover:bg-black hover:text-white">
                                         <Envicon className="size-6 w-5 h-5"/>
                                         Entre em contato
                                     </a>
