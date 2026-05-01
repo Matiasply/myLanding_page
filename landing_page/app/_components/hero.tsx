@@ -19,13 +19,13 @@ export function Hero () {
 
                         <div className="flex flex-col gap-5">
 
-                            <h1 className="text-4xl md:text-6xl font-bold">Olá, eu sou o Matias.</h1>
+                            <h1 className="text-4xl md:text-6xl font-bold" data-aos="fade-down">Olá, eu sou o Matias.</h1>
 
-                            <p className="text-2xl md:text-3xl">Meu lema é: "Tentando ser melhor".</p>
+                            <p className="text-2xl md:text-3xl" data-aos="fade-up">Meu lema é: "Tentando ser melhor".</p>
 
                             <div className="flex items-center gap-5">
 
-                                <div className="mt-3">
+                                <div className="mt-3" data-aos="fade-right">
                                     <a href="#sobre_mim"
                                     className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2">
                                         <Usericon className="size-6 w-5 h-5"/>
@@ -33,7 +33,7 @@ export function Hero () {
                                     </a>
                                 </div>
 
-                                <div className="mt-3">
+                                <div className="mt-3" data-aos="fade-up">
                                     <a href="#projetos" 
                                     className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2 ">
                                     <Devicon className="size-6 w-5 h-5"/>
@@ -41,7 +41,7 @@ export function Hero () {
                                     </a>
                                 </div>
 
-                                <div className="mt-3">
+                                <div className="mt-3" data-aos="fade-left">
                                     <a href="#contato"
                                     className="bg-white px-7 py-4 text-black rounded-md font-semibold flex items-center justify-center w-fit gap-2">
                                         <Envicon className="size-6 w-5 h-5"/>
@@ -53,7 +53,7 @@ export function Hero () {
 
                         </div>
 
-                        <div className="hidden md:block h-full">
+                        <div className="hidden md:block h-full" data-aos="flip-right">
                             <Image src={HeroImage} alt="Foto do Matias" className="object-contain"/>
                         </div>
 
