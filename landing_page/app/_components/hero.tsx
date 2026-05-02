@@ -57,7 +57,7 @@ export function Hero () {
                         </div>
 
                         <div className="hidden md:block h-full" data-aos="flip-right">
-                            <Image src={HeroImage} alt="Foto do Matias" className="object-contain"/>
+                            <Image src={HeroImage} alt="Foto do Matias" className="object-contain hover:scale-110 duration-300"/>
                         </div>
 
                     </article>
