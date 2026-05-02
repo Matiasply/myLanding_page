@@ -1,5 +1,5 @@
 import Image from "next/image"
-import provImage from "../../public/prov.jpeg"
+import euImage from "../../public/eu.jpeg"
 import { PuzzlePieceIcon } from "@heroicons/react/24/outline"
 import { ArrowPathIcon } from "@heroicons/react/24/outline"
 import { UserGroupIcon } from "@heroicons/react/24/outline"
@@ -21,7 +21,7 @@ export function About() {
             <div data-aos="flip-left">
 
             <div className="relative w-full h-100 rounded-3xl overflow-hidden">
-                <Image src={provImage} alt="Imagem provisória" fill sizes="(max-width: 1024px) 100vw, 33vw" quality={100} priority className="object-cover hover:scale-110 duration-300"/>
+                <Image src={euImage} alt="Imagem provisória" fill sizes="(max-width: 1024px) 100vw, 33vw" quality={100} priority className="object-cover hover:scale-110 duration-300"/>
             </div>
 
             </div>
